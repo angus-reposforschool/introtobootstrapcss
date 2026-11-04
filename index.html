@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>bootstrap</title>
+</head>
+<body>
+    <div class="d-flex flex-column container bg-primary align-items-center" style="height: 100vh;">
+        <h1 class="text-white text-center">lost</h1>
+        <p class="text-white text-center">my chicken has disappeared</p>
+        <p class="text-white text-center">last seen downtown crossing the road</p>
+        <p class="text-white text-center">if found, enter your email below</p>
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="chicken2.jpg" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="chicken1.jpg" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="chicken3.jpg" class="d-block w-100">
+            </div>
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label text-white">your email address</label>
+            <input type="email" class="form-control" id="email" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+            <label for="findwhere" class="form-label text-white">where is my chicken</label>
+            <textarea class="form-control" id="findwhere" rows="3" placeholder="i found your chicken ..."></textarea>
+        </div>
+        <button type="button" class="btn btn-secondary">click if my chicken is in your possesion</button>
+    </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
